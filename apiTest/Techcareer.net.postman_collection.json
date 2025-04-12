@@ -1,0 +1,275 @@
+{
+	"info": {
+		"_postman_id": "f0138254-5225-4d37-8b7f-d5ca1ea4affb",
+		"name": "Techcareer.net",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44011763"
+	},
+	"item": [
+		{
+			"name": "create user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 72135,\n  \"username\": \"Eyyubi\",\n  \"firstName\": \"Eyup\",\n  \"lastName\": \"Karatay\",\n  \"email\": \"eyupkaratayasdasd@gmail.com\",\n  \"password\": \"123456\",\n  \"phone\": \"125654321561\",\n  \"userStatus\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/user",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get user",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/user/Eyyubi2",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"user",
+						"Eyyubi2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update user",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 72135,\n  \"username\": \"Eyyubi2\",\n  \"firstName\": \"Eyup2\",\n  \"lastName\": \"Karatay2\",\n  \"email\": \"eyupkaratay44@gmail.com\",\n  \"password\": \"123456\",\n  \"phone\": \"5362683381\",\n  \"userStatus\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/user/Eyyubi2",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"user",
+						"Eyyubi2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete user",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/user/Eyyubi2",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"user",
+						"Eyyubi2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create pet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 7985862,\n  \"category\": {\n    \"id\": 251025,\n    \"name\": \"Dogo\"\n  },\n  \"name\": \"Fino\",\n  \"photoUrls\": [\n    \"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.markamama.com.tr%2Ffino-kopek-cinsleri&psig=AOvVaw1S0lCSVGNdtlenY0D9mxlD&ust=1744575733520000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKio9pup04wDFQAAAAAdAAAAABAE\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 25895,\n      \"name\": \"yaramaz\"\n    }\n  ],\n  \"status\": \"available\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get pet",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/7985862",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"7985862"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update pet",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 7985862,\n    \"category\": {\n        \"id\": 251025,\n        \"name\": \"Dogi\"\n    },\n    \"name\": \"Fini\",\n    \"photoUrls\": [\n        \"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.markamama.com.tr%2Ffino-kopek-cinsleri&psig=AOvVaw1S0lCSVGNdtlenY0D9mxlD&ust=1744575733520000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKio9pup04wDFQAAAAAdAAAAABAE\"\n    ],\n    \"tags\": [\n        {\n            \"id\": 25895,\n            \"name\": \"yaramaz\"\n        }\n    ],\n    \"status\": \"available\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete pet",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/7985862",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"7985862"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
