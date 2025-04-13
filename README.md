@@ -5,8 +5,7 @@ Bu proje, Java, Selenium ve TestNG kullanarak test otomasyon senaryolarını yü
 - Java 17 kullanılarak yazılmıştır.
 - Selenium 4.28.1 ile web otomasyon testi.
 - TestNG entegrasyonu ile test yönetimi.
-- TestRail Raporlama desteği.
-- Allure Report.
+- Allure Report Raporlama desteği.
 - Commons Email ile hata alınan sayfaların ekran görüntülerini e-posta ile gönderme.
 
 ## Gereksinimler
