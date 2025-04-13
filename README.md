@@ -32,7 +32,7 @@ Projenin bağımlılıkları pom.xml dosyasında tanımlanmıştır:
 ## Nasıl Çalıştırılır?
 1. Projeyi klonlayın:
    ```bash
-   git clone https://github.com/EyupKaratay/trendyol-test-automation.git
+   git clone https://github.com/EyupKaratay/Techcareer.net-Bootcamp-manual-automation-api-tests.git
    cd projeadi
 
 2. Maven bağımlılıklarını yükleyin:
